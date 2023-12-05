@@ -13,3 +13,7 @@ forge install smartcontractkit/chainlink-brownie-contracts@0.6.1 --no-comit
 
 # test with visibility in the console
 forge test -vv
+
+forge test --match-test testOnlyOwnerCanWithdraw 
+# testea todos los test
+forge snapshot
